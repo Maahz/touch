@@ -1,2 +1,2 @@
 # Windows touch
- touch program for windows
+ touch program for Windows to create files from the command line
