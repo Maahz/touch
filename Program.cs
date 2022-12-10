@@ -29,6 +29,7 @@ namespace touch
                 Console.WriteLine("Path traversal error!");
                 return;
             }
+
             if (File.Exists(filename))
             {
                 Console.WriteLine("Error. File already exists");
@@ -36,7 +37,7 @@ namespace touch
             }
             
             #endregion
-            File.Create(args[0]);
+            File.Create(filename);
         }
     }
 }
