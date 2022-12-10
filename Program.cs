@@ -22,11 +22,19 @@ namespace touch
                 Console.WriteLine("Syntax error. Usage: touch {filename}");
                 return;
             }
-            if (File.Exists(args[0]))
+            //Check for path traversal
+            string filename = args[0];
+            if (filename.StartsWith("..") || filename.StartsWith("/"))
+            {
+                Console.WriteLine("Path traversal error!");
+                return;
+            }
+            if (File.Exists(filename))
             {
                 Console.WriteLine("Error. File already exists");
                 return;
             }
+            
             #endregion
             File.Create(args[0]);
         }
