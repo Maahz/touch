@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace touch
 {
@@ -23,21 +20,16 @@ namespace touch
                 return;
             }
             //Check for path traversal
-            string filename = args[0];
-            if (filename.StartsWith("..") || filename.StartsWith("/"))
-            {
-                Console.WriteLine("Path traversal error!");
-                return;
-            }
+            string filePath = args[0];
 
-            if (File.Exists(filename))
+            if (File.Exists(filePath))
             {
                 Console.WriteLine("Error. File already exists");
                 return;
             }
             
             #endregion
-            File.Create(filename);
+            File.Create(filePath);
         }
     }
 }

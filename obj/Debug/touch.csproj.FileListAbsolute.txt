@@ -5,3 +5,11 @@ C:\Users\Markku\Source\repos\touch\obj\Debug\touch.csprojAssemblyReference.cache
 C:\Users\Markku\Source\repos\touch\obj\Debug\touch.csproj.CoreCompileInputs.cache
 C:\Users\Markku\Source\repos\touch\obj\Debug\touch.exe
 C:\Users\Markku\Source\repos\touch\obj\Debug\touch.pdb
+C:\Users\Markku\source\repos\Maahz\touch\bin\Debug\touch.exe.config
+C:\Users\Markku\source\repos\Maahz\touch\bin\Debug\touch.exe
+C:\Users\Markku\source\repos\Maahz\touch\bin\Debug\touch.pdb
+C:\Users\Markku\source\repos\Maahz\touch\obj\Debug\touch.csproj.AssemblyReference.cache
+C:\Users\Markku\source\repos\Maahz\touch\obj\Debug\touch.csproj.SuggestedBindingRedirects.cache
+C:\Users\Markku\source\repos\Maahz\touch\obj\Debug\touch.csproj.CoreCompileInputs.cache
+C:\Users\Markku\source\repos\Maahz\touch\obj\Debug\touch.exe
+C:\Users\Markku\source\repos\Maahz\touch\obj\Debug\touch.pdb
